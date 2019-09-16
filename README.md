@@ -23,7 +23,7 @@ Uh oh! JSDoc doesn't like this. It's a TypeScript thing and [won't be supported]
 Thankfully, this JSDoc plugin solves the problem by converting your intersecting types to compatible JSDoc union types.
 There's no need to hack your code together with strange `@typedef`s.
 
-## Just Install
+### Just Install
 ```sh
 yarn add jsdoc-plugin-intersection --dev
 ```
@@ -36,7 +36,6 @@ Update your JSDoc configuration, and include the plugin:
 ```json
 ...
     "plugins": [
-        ...
         "jsdoc-plugin-intersection"
     ],
 ...
