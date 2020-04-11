@@ -16,7 +16,7 @@ exports.handlers = {
                 let len = match[0].length;
                 let before = jsdocComment.comment.substr(0, match.index);
                 let after = jsdocComment.comment.substr(match.index + len);
-                let replaced = match[0].replace('&', '|');
+                let replaced = match[0].replace(/&/g, '|');
                 jsdocComment.comment = before + replaced + after;
             }
         }
