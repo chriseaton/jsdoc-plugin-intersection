@@ -1,3 +1,5 @@
+[![NPM](https://nodei.co/npm/jsdoc-plugin-intersection.png)](https://npmjs.org/package/jsdoc-plugin-intersection)
+
 # JSDoc Intersection Plugin
 Converts TypeScript intersection types (joined with an "&") to a jsDoc type union "|" allowing the file to be 
 processed downstream. This allows you to use the amperstand "&" in your code.
