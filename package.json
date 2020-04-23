@@ -1,6 +1,6 @@
 {
     "name": "jsdoc-plugin-intersection",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Converts TypeScript-like intersection types to JSDoc compatible union types, that is, from & -> |",
     "author": "Christopher Eaton <chriseaton@live.com>",
     "license": "UNLICENSED",
