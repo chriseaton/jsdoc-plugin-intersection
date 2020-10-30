@@ -1,11 +1,15 @@
 [![NPM](https://nodei.co/npm/jsdoc-plugin-intersection.png)](https://npmjs.org/package/jsdoc-plugin-intersection)
 
 # JSDoc Intersection Plugin
-Converts TypeScript intersection types (joined with an "&") to a jsDoc type union "|" allowing the file to be 
+Converts TypeScript intersection types (joined with an "&") to a JSDoc type union "|" allowing the file to be 
 processed downstream. This allows you to use the amperstand "&" in your code.
 
 Specifically, this creates a compatibility between Visual Studio Code's TypeScript documentation and JSDoc, as
 Visual Studio Code's parser uses amperstands for type unions, and JSDoc uses pipes.
+
+> You may find my other JSDoc plugins interesting:
+>  - [jsdoc-plugin-typescript-new](https://github.com/chriseaton/jsdoc-plugin-typescript-new)
+
 
 ## Solving the Problem
 Using JSDoc in Visual Studio code with their TypeScript-oriented intersection:

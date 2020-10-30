@@ -13,13 +13,11 @@ exports.handlers = {
             let r = new RegExp('^.+@' + tag + '\\s*\\{(?:.+&.+)\\s*\\}', 'gm');
             let match = r.exec(jsdocComment.comment);
             while (match && match.length) {
-                if (match && match.length) {
-                    let len = match[0].length;
-                    let before = jsdocComment.comment.substr(0, match.index);
-                    let after = jsdocComment.comment.substr(match.index + len);
-                    let replaced = match[0].replace(/&/g, '|');
-                    jsdocComment.comment = before + replaced + after;
-                }
+                let len = match[0].length;
+                let before = jsdocComment.comment.substr(0, match.index);
+                let after = jsdocComment.comment.substr(match.index + len);
+                let replaced = match[0].replace(/&/g, '|');
+                jsdocComment.comment = before + replaced + after;
                 match = r.exec(jsdocComment.comment);
             }
         }
