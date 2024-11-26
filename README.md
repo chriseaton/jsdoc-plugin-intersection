@@ -42,8 +42,8 @@ yarn add jsdoc-plugin-intersection --dev
 npm install jsdoc-plugin-intersection --save-dev
 ```
 
-Update your JSDoc configuration, and include the plugin:
-```json
+Update your [JSDoc configuration](https://jsdoc.app/about-configuring-jsdoc), and include the plugin:
+```js
 ...
     "plugins": [
         "jsdoc-plugin-intersection"
