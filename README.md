@@ -1,5 +1,9 @@
 [![NPM](https://img.shields.io/npm/v/jsdoc-plugin-intersection)](https://npmjs.org/package/jsdoc-plugin-intersection)
 
+> [!TIP]
+> **Why hasn't this repo been updated in X months or years?!**    
+> A: Because it has no dependencies, and it still works.
+
 # JSDoc Intersection Plugin
 Converts TypeScript intersection types (joined with an "&") to a JSDoc type union "|" allowing the file to be 
 processed downstream. This allows you to use the amperstand "&" in your code.
