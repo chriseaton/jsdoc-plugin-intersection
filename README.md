@@ -1,4 +1,4 @@
-[![NPM](https://nodei.co/npm/jsdoc-plugin-intersection.png)](https://npmjs.org/package/jsdoc-plugin-intersection)
+[![NPM](https://img.shields.io/npm/v/jsdoc-plugin-intersection)](https://npmjs.org/package/jsdoc-plugin-intersection)
 
 # JSDoc Intersection Plugin
 Converts TypeScript intersection types (joined with an "&") to a JSDoc type union "|" allowing the file to be 
