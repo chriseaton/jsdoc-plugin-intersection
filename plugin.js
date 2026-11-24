@@ -10,7 +10,7 @@ exports.handlers = {
     jsdocCommentFound(jsdocComment, parser) {
         let tags = ['augments', 'extends', 'type', 'mixes', 'property', 'prop', 'param', 'typedef', 'returns'];
         for (let tag of tags) {
-            let r = new RegExp('^.+@' + tag + '\\s*\\{(?:.+&.+)\\s*\\}', 'gm');
+            let r = new RegExp('^.+@' + tag + '\\s*\\{(?:.+&.+|[^}]+&[^}]+)\\s*\\}', 'gm');
             let match = r.exec(jsdocComment.comment);
             while (match && match.length) {
                 let len = match[0].length;
